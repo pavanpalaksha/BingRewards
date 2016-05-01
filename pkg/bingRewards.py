@@ -223,8 +223,8 @@ class BingRewards:
         """Processes bfp.Reward.Type.Action.SEARCH and returns self.RewardResult"""
 
         BING_QUERY_URL = 'http://www.bing.com/search?q='
-        BING_QUERY_SUCCESSFULL_RESULT_MARKER_PC = '<div id="b_content">'
-        BING_QUERY_SUCCESSFULL_RESULT_MARKER_MOBILE = '<div id="content">'
+        BING_QUERY_SUCCESSFULL_RESULT_MARKER_PC = '<div id="b_content"'
+        BING_QUERY_SUCCESSFULL_RESULT_MARKER_MOBILE = '<div id="content"'
         IG_PING_LINK = "http://www.bing.com/fd/ls/GLinkPing.aspx"
         IG_NUMBER_PATTERN = re.compile(r'IG:"(.+?)"')
         IG_SEARCH_RESULTS_PATTERN = re.compile(r'<ol\s.*?id="b_results"(.+?)</ol>')
